@@ -6,7 +6,9 @@ import HomePageGraphic from "@/assets/HomePageGraphic.png";
 import SponsorRedBull from "@/assets/SponsorRedBull.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
+import SponsorDatabase from "@/assets/SponsorDatabase.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import SponsorLanguage from "@/assets/SponsorLanguage.png";
 import { motion } from "framer-motion";
 
 type Props = {
@@ -39,7 +41,7 @@ const Home = ({ setSelectedPage }: Props) => {
           >
             <div className="relative">
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
-                <img alt="home-page-text" src={HomePageText} className="ta" />
+                <img alt="home-page-text" src={HomePageText} />
               </div>
             </div>
 
@@ -86,11 +88,13 @@ const Home = ({ setSelectedPage }: Props) => {
       {/* SPONSORS */}
       {isAboveMediumScreens && (
         <div className="h-[150px] w-full bg-primary-100 py-10">
-          <div className="mx-auto w-5/6">
-            <div className="flex w-3/5 items-center justify-between gap-8">
+          <div className="mx-auto ">
+            <div className="flex w-60 h-20 items-center justify-between gap-20 px-4 py-4">
               <img alt="redbull-sponsor" src={SponsorRedBull} />
               <img alt="forbes-sponsor" src={SponsorForbes} />
               <img alt="fortune-sponsor" src={SponsorFortune} />
+              <img alt="language-sponsor" src={SponsorLanguage} />
+              <img alt="datbase-sponsor" src={SponsorDatabase} />
             </div>
           </div>
         </div>
