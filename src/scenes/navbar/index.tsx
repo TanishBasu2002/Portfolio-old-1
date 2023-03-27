@@ -38,12 +38,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
-                    page="Benefits"
+                    page="Education"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
-                    page="Our Classes"
+                    page="Projects"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
@@ -55,9 +55,10 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                 </div>
                 <div className={`${flexBetween} gap-8`}>
                   
-                  <ActionButton setSelectedPage={setSelectedPage}>
+                  <ActionButton setSelectedPage={() => window.location.href=" https://drive.google.com/file/d/1t3UYkuHYHmke6UVhtCLT73rU8y5Uz8UF/view"}>
                     Resume
                   </ActionButton>
+                 
                 </div>
               </div>
             ) : (
@@ -90,12 +91,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Benefits"
+              page="Education"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Our Classes"
+              page="Projects"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />

@@ -1,34 +1,33 @@
 import ActionButton from "@/shared/ActionButton";
 import HText from "@/shared/HText";
-import { BenefitType, SelectedPage } from "@/shared/types";
+import { EducationType, SelectedPage } from "@/shared/types";
 import {
-  HomeModernIcon,
   UserGroupIcon,
   AcademicCapIcon,
 } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
-import Benefit from "./Benefit";
+import Education from "./Benefit";
 
-const benefits: Array<BenefitType> = [
+const educations: Array<EducationType> = [
   {
-    icon: <HomeModernIcon className="h-6 w-6" />,
-    title: "State of the Art Facilities",
+    icon: <AcademicCapIcon className="h-6 w-6" />,
+    title: "Bachelor of Computer Applications",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "I did My Bachelor of Computer Applications From Maulana Abul Klam Azad University of Technology. I was Batch 2021-2024.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
-    title: "100's of Diverse Classes",
+    title: "Udamy Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "I Learned about Full Stack Web Development From Udamy's Course 2023 Full Stack Web Development Bootcamp by Dr. Angela Yu.",
   },
-  {
+  /**{
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
       "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
-  },
+  }, */
 ];
 
 const container = {
@@ -42,11 +41,11 @@ type Props = {
   setSelectedPage: (value: SelectedPage) => void;
 };
 
-const Benefits = ({ setSelectedPage }: Props) => {
+const Educations = ({ setSelectedPage }: Props) => {
   return (
-    <section id="benefits" className="mx-auto min-h-full w-5/6 py-20">
+    <section id="educations" className="mx-auto min-h-full w-5/6 py-20">
       <motion.div
-        onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
+        onViewportEnter={() => setSelectedPage(SelectedPage.Education)}
       >
         {/* HEADER */}
         <motion.div
@@ -60,15 +59,13 @@ const Benefits = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <HText>MORE THAN JUST GYM.</HText>
+          <HText>Education.</HText>
           <p className="my-5 text-sm">
-            We provide world class fitness equipment, trainers and classes to
-            get you to your ultimate fitness goals with ease. We provide true
-            care into each and every member.
+           All Info on my Education is mentioned here  
           </p>
         </motion.div>
 
-        {/* BENEFITS */}
+        {/* Educations */}
         <motion.div
           className="mt-5 items-center justify-between gap-8 md:flex"
           initial="hidden"
@@ -76,8 +73,8 @@ const Benefits = ({ setSelectedPage }: Props) => {
           viewport={{ once: true, amount: 0.5 }}
           variants={container}
         >
-          {benefits.map((benefit: BenefitType) => (
-            <Benefit
+          {educations.map((benefit: EducationType) => (
+            <Education
               key={benefit.title}
               icon={benefit.icon}
               title={benefit.title}
@@ -112,8 +109,8 @@ const Benefits = ({ setSelectedPage }: Props) => {
                   }}
                 >
                   <HText>
-                    MILLIONS OF HAPPY MEMBERS GETTING{" "}
-                    <span className="text-primary-500">FIT</span>
+                    See My New and Grate Projects On{" "}
+                    <span className="text-primary-500">GITHUB</span>
                   </HText>
                 </motion.div>
               </div>
@@ -131,26 +128,21 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+              As a student, I am excited to share my latest projects on GitHub with everyone.
+              GitHub is a fantastic platform for sharing code and collaborating with others in the development community.
+              I have put in a lot of effort and time to create these projects, and I am proud of the results.
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+              I hope that others find my work useful and perhaps even contribute to it.
+              Sharing my projects on GitHub is a great way to showcase my skills and knowledge to potential employers and peers.
               </p>
             </motion.div>
 
             {/* BUTTON */}
             <div className="relative mt-16">
               <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
-                <ActionButton setSelectedPage={setSelectedPage}>
-                  Join Now
+                <ActionButton setSelectedPage={() => window.location.href="https://github.com/TanishBasu2002"}>
+                  See Codes
                 </ActionButton>
               </div>
             </div>
@@ -161,4 +153,4 @@ const Benefits = ({ setSelectedPage }: Props) => {
   );
 };
 
-export default Benefits;
+export default Educations;
