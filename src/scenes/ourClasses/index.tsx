@@ -18,7 +18,7 @@ const projects: Array<ProjectType> = [
   },
   {
     name: "Blog Website",
-    description: "This is a Simple To-Do List using EJS as Frontend, Node.js as Backend and MongoDB as Database.",
+    description: "This is a Simple Blog-Website using EJS as Frontend, Node.js as Backend and MongoDB as Database.",
     link:"https://blog-with-database.onrender.com",
     image: image2,
   },
@@ -78,7 +78,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
             </p>
           </div>
         </motion.div>
-        <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
+        <div className="mt-10 h-[353px] w-full overflow-x-scroll snap-x-mandatory snap-type-x loop overflow-y-hidden">
           <ul className="w-[2800px] whitespace-nowrap">
             {projects.map((item: ProjectType, index) => (
               <Project
