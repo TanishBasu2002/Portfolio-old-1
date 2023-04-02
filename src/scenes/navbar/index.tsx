@@ -55,7 +55,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                 </div>
                 <div className={`${flexBetween} gap-8`}>
                   
-                  <ActionButton setSelectedPage={() => window.location.href=" https://drive.google.com/file/d/1t3UYkuHYHmke6UVhtCLT73rU8y5Uz8UF/view"}>
+                  <ActionButton setSelectedPage={() => window.location.href="https://drive.google.com/file/d/1NACjv2OhsdTTiD4k8cTQB159Yu_DH_rd/view?usp=sharing"}>
                     Resume
                   </ActionButton>
                  

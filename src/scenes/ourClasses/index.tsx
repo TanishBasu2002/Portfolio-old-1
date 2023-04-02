@@ -36,11 +36,14 @@ const projects: Array<ProjectType> = [
     link:"https://real-estate-tanish.netlify.app",
     image: image4,
   },
-  /**{
-    name: "Fitness Classes",
-    image: image5,
+ {
+  name: "Tshirt Designer App",
+  description:
+    "This one let's you design your customized shirts.",
+  link:"https://tshirt-designer-tanish.netlify.app",
+  image: image5,
   },
-  {
+   /**{
     name: "Training Classes",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
