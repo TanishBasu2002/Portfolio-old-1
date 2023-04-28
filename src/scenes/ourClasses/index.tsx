@@ -43,12 +43,13 @@ const projects: Array<ProjectType> = [
   link:"https://tshirt-designer-tanish.netlify.app",
   image: image5,
   },
-   /**{
-    name: "Training Classes",
+   {
+    name: "Ai Summerizer",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "This is a ai summerizer app which uses Ai Summerizer Api from Rapid Api to Summerize any news letter or website (this is available t JSM Mastery).",
+      link:"https://summerizer.netlify.app/",
     image: image6,
-  }, */
+  },
 ];
 
 type Props = {
