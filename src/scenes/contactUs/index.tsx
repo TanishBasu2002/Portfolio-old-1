@@ -1,9 +1,9 @@
 import { useForm } from "react-hook-form";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
-import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png";
 import HText from "@/shared/HText";
-
+import Lottie from "lottie-react";
+import animationData from "@/assets/ContactUsPageGraphic.json";
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
 };
@@ -141,11 +141,8 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             }}
           >
             <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-evolvetext">
-              <img
-                className="w-full"
-                alt="contact-us-page-graphic"
-                src={ContactUsPageGraphic}
-              />
+              <Lottie animationData={animationData} className="w-full"
+              alt="contact-us-page-graphic"/>
             </div>
           </motion.div>
         </div>

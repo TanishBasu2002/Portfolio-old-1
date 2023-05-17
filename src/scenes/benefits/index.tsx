@@ -8,7 +8,7 @@ import {
 import { motion } from "framer-motion";
 import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
 import Education from "./Benefit";
-
+import animationData from "@/assets/BenefitsPageGraphic.json";
 const educations: Array<EducationType> = [
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
