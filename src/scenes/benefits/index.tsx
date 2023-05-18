@@ -8,6 +8,7 @@ import {
 import { motion } from "framer-motion";
 import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
 import Education from "./Benefit";
+import Lottie from "lottie-react";
 import animationData from "@/assets/BenefitsPageGraphic.json";
 const educations: Array<EducationType> = [
   {
@@ -92,7 +93,7 @@ const Educations = ({ setSelectedPage }: Props) => {
             alt="benefits-page-graphic"
             src={BenefitsPageGraphic}
           />
-
+          
           {/* DESCRIPTION */}
           <div>
             {/* TITLE */}

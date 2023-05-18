@@ -77,8 +77,8 @@ const OurClasses = ({ setSelectedPage }: Props) => {
             <HText>My Projects</HText>
             <p className="py-5">
               See my Projects which I made using various technologies such as HTML,CSS,JavaScript,Node.js,
-              EJS,JQuery,Angular,
-              React,NEXt.js,MongoDB,Firebase etc.
+              EJS,JQuery,
+              React,Redux,NEXt.js,MongoDB,MySQL etc.
             </p>
           </div>
         </motion.div>
