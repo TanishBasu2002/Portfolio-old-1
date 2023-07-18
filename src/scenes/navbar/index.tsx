@@ -106,6 +106,9 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
               setSelectedPage={setSelectedPage}
             />
           </div>
+          <ActionButton dir="ltr" className="py-8 ml-[33%] flex flex-col gap-10 text-2xl pe-8 py-5" setSelectedPage={() => window.location.href="https://drive.google.com/file/d/1NACjv2OhsdTTiD4k8cTQB159Yu_DH_rd/view?usp=sharing"}>
+              Resume
+            </ActionButton>
         </div>
       )}
     </nav>

@@ -36,13 +36,6 @@ const projects: Array<ProjectType> = [
     link:"https://real-estate-tanish.netlify.app",
     image: image4,
   },
- {
-  name: "Tshirt Designer App",
-  description:
-    "This one let's you design your customized shirts.",
-  link:"https://tshirt-designer-tanish.netlify.app",
-  image: image5,
-  },
    {
     name: "Ai Summerizer",
     description:
