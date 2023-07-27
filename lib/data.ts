@@ -6,6 +6,7 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import rhomeImg from '@/public/rhome.png';
+import spot from '@/public/spotify.png'
 
 export const links = [
   {
@@ -85,6 +86,14 @@ export const projectsData = [
     tags: ["React", "Node.js", "MongoDB", "MUI", "Typescript"],
     imageUrl: rhomeImg,
     linkUrl:"https://real-estate-001.netlify.app/",
+  },
+  {
+    title: "Spotify Clone",
+    description:
+      "A Full-Stack Spotify clone to listen music which is the first Project of Next js and Supabase.",
+    tags: ["React", "Next.js", "PostgreySQL(Supabase)", "Tailwind", "Typescript","Stripe"],
+    imageUrl: spot,
+    linkUrl:"https://spotify-clone-tanish.vercel.app/",
   },
 ] as const;
 
