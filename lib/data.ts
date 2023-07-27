@@ -77,7 +77,7 @@ export const projectsData = [
       "An ai summerizer app which uses Ai Summerizer Api from Rapid Api to Summerize any news letter or website (to more clarify the usage of Api's).",
     tags: ["React", "Node.js", "MongoDB", "Tailwind", "Api"],
     imageUrl: wordanalyticsImg,
-    linkUrl:"",
+    linkUrl:"https://summerizer.netlify.app/",
   },
   {
     title: "The Retreat House",
