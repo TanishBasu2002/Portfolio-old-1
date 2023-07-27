@@ -94,7 +94,7 @@ export default function Intro() {
           href="/TanishBasu.pdf"
           download
         >
-          Download CV{" "}
+          Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
