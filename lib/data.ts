@@ -91,7 +91,7 @@ export const projectsData = [
     title: "Spotify Clone",
     description:
       "A Full-Stack Spotify clone to listen music which is the first Project of Next js and Supabase.",
-    tags: ["React", "Next.js", "PostgreySQL(Supabase)", "Tailwind", "Typescript","Stripe"],
+    tags: ["React", "Next.js", "PostgreySQL(Supabase)", "Tailwind", "Typescript"],
     imageUrl: spot,
     linkUrl:"https://spotify-clone-tanish.vercel.app/",
   },
