@@ -38,9 +38,9 @@ export const links = [
 export const experiencesData = [
   {
     title: "Bachelor of Computer Applications",
-    location: "Maulana Abul Kalam zad Univercity of Technology, Nadia , West Bengal",
+    location: "Maulana Abul Kalam Azad Univercity of Technology, Nadia , West Bengal",
     description:
-      "Currently at my final year with a avarage SGPA of 8.4",
+      "Currently at my final year with an avarage SGPA of 8.4",
     icon: React.createElement(LuGraduationCap),
     date: "2024",
   },
