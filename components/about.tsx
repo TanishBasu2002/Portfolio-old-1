@@ -19,14 +19,14 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      I hold a Bachelor's degree in Computer Science from Maulana bul Kalm Azad University of Technology, where I not only honed my programming skills but also developed a comprehensive understanding of software development principles and practices. During my academic journey, I actively participated in coding competitions and various tech-related events, which further fueled my passion for coding.{" "}
+      I hold a Bachelor's degree in Computer Science from Maulana Abul Kalam Azad University of Technology, where I not only honed my programming skills but also developed a comprehensive understanding of software development principles and practices. During my academic journey, I actively participated in coding competitions and various tech-related events, which further fueled my passion for coding.{" "}
         <span className="font-medium">
-         I am Proficient in React, Next.js, Node.js, MongoDB, Supabase, GrafQl
+         I am Proficient in React, Next.js, Node.js, MongoDB, Supabase, MySql
         </span>
         . I am also familiar with TypeScript and Java. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">Entry level osition</span> as a software
-        developer or a Full Stack Developer.
+        <span className="font-medium">Entry level position</span> as a Software
+        Developer or a Full Stack Developer.
       </p>
 
       <p>
@@ -35,7 +35,7 @@ export default function About() {
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">Mithology & Statistic</span>. I'm also
-        learning how to play the guitar.
+        learning about AI.
       </p>
     </motion.section>
   );

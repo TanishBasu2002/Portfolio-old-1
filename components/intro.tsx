@@ -10,6 +10,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import Link from "next/link";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -31,7 +32,7 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
+              <Link href="#"><Image
               src="/profile.png"
               alt="Tanish Basu"
               width="200"
@@ -39,7 +40,7 @@ export default function Intro() {
               quality="95"
               priority={true}
               className="h-48 w-48 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
+            /></Link>
           </motion.div>
 
           <motion.span
@@ -66,7 +67,7 @@ export default function Intro() {
         <span > aspering Full-Stack Developer</span> with a{" "}
         <span > BCA</span> (Bachelor of Computer Applications) Degree. I enjoy
         building <span>sites & apps</span>. My focus is{" "}
-        <span>React (Next.js)</span>.
+        <span>React & Next.js </span>
       </motion.h1>
 
       <motion.div
