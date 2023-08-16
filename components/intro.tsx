@@ -34,11 +34,11 @@ export default function Intro() {
             <Image
               src="/profile.png"
               alt="Tanish Basu"
-              width="192"
-              height="192"
+              width="200"
+              height="200"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-48 w-48 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
@@ -53,7 +53,6 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            
           </motion.span>
         </div>
       </div>
@@ -63,11 +62,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Tanish.</span> I'm a{" "}
-        <span className="font-bold"> aspering Full-Stack Developer</span> with a{" "}
-        <span className="font-bold"> BCA</span> (Bachelor of Computer Applications) Degree. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        Hello,<span className="font-bold"> I'm Tanish.</span> I'm an{" "}
+        <span > aspering Full-Stack Developer</span> with a{" "}
+        <span > BCA</span> (Bachelor of Computer Applications) Degree. I enjoy
+        building <span>sites & apps</span>. My focus is{" "}
+        <span>React (Next.js)</span>.
       </motion.h1>
 
       <motion.div
