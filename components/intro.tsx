@@ -5,7 +5,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import {  BsLinkedin } from "react-icons/bs";
-import {SiCodechef} from 'react-icons/si'
+import {SiLeetcode} from 'react-icons/si'
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
@@ -90,7 +90,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 hover:text-white hover:bg-gradient-to-r hover:from-blue-900 hover:to-sky-500 hover: flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white"
+          className="bg-white p-4 text-gray-700 hover:text-white hover:bg-gradient-to-t hover:from-blue-900 hover:via-sky-500 hover:to-sky-900  hover: flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white"
           href="https://www.linkedin.com/in/tanish-basu/"
           target="_blank"
         >
@@ -98,18 +98,18 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-white hover:bg-gradient-to-r hover:from-gray-900 hover:to-gray-500 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-white hover:bg-gradient-to-t hover:from-gray-900 hover:via-gray-500 hover:to-gray-900 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white"
           href="https://github.com/TanishBasu2002"
           target="_blank"
         >
           <FaGithubSquare />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 hover:text-white hover:bg-gradient-to-r hover:from-yellow-900 hover:via-yellow-700 hover:to-yellow-500 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white"
-          href="https://www.codechef.com/users/tanishbasu"
+          className="bg-white p-4 text-gray-700 hover:text-white hover:bg-gradient-to-t hover:from-yellow-900 hover:via-yellow-600 hover:to-yellow-900 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white"
+          href="https://leetcode.com/tanishbasu50/"
           target="_blank"
         >
-          <SiCodechef />
+          <SiLeetcode />
         </a>
       </motion.div>
     </section>

@@ -7,7 +7,7 @@ import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import rhomeImg from '@/public/rhome.png';
 import spot from '@/public/spotify.png'
-
+import hack from '@/public/Hackhubb.png'
 export const links = [
   {
     name: "Home",
@@ -50,7 +50,15 @@ export const experiencesData = [
     description:
       "I worked as a web developer intern for 1 month. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "April,2023 - May,2021",
+    date: "April,2023 - May,2023",
+  },
+  {
+    title: "Web Developer Intern",
+    location: "Bioron Solutions Pvt Ltd",
+    description:
+      "I have been working as a full stack web developer intern for 3 month now.",
+    icon: React.createElement(FaReact),
+    date: "Aug,2023 - ",
   }
 ] as const;
 
@@ -95,6 +103,14 @@ export const projectsData = [
     imageUrl: spot,
     linkUrl:"https://spotify-clone-tanish.vercel.app/",
   },
+  {
+    title: "Hackhubb",
+    description:
+      "An open-source Fullstack Web Ecosystem for Developers.",
+    tags: ["React", "Next.js", "MySQl", "MongoDB", "Socket-io", "LiveKit", "Uploadthing", "Prisma", "Tailwind", "Typescript"],
+    imageUrl: hack,
+    linkUrl:"https://hackhubb.vercel.app/",
+  },
 ] as const;
 
 export const skillsData = [
@@ -112,10 +128,14 @@ export const skillsData = [
   "Python",
   "Java",
   "TypeScript",
+  "Prisma",
+  "Socket-io",
+  "WebRTC",
   "Git",
   "DBMS",
   "MySQL",
   "PostgreSQL",
   "SupaBase",
   "MongoDB",
+  "Vercel",
 ] as const;
